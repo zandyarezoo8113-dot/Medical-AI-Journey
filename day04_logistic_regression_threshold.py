@@ -7,7 +7,6 @@ y = np.array([0, 0, 0, 1, 1, 1])
 model = LogisticRegression()
 model.fit(x, y)
 
-# اصلاح خط ۷: استفاده از دو براکت برای ساخت آرایه دوبعدی (۱ بیمار و ۲ ویژگی)
 new_patient = np.array([[145, 38]])
 
 predict1 = model.predict(new_patient)
